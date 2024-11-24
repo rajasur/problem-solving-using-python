@@ -1,5 +1,6 @@
 from typing import List 
 
+# Optimal Solution TC[O(n)] and SC[O(1)]
 def leftRotateByOnePlace(arr: List['int'], n: int) -> List['int']:
     temp = arr[0] 
     for i in range(1, n):
