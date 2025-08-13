@@ -31,7 +31,7 @@ def lowerBound(arr: List[int], x: int) -> int:
     return ans
 
 if __name__ == "__main__":
-    arr = [3, 5, 8,1 5, 19]
+    arr = [3, 5, 8, 1, 5, 19]
     x = 9
     ind = lowerBound(arr, x)
     print(f"The lower bound index is {ind}") 
